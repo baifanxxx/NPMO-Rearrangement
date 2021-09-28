@@ -109,8 +109,6 @@ roslaunch realsense2_camera rs_aligned_depth.launch
 
 # Publish the pose transformation between the camera and the arm.
 roslaunch easy_handeye publish.launch
- 
-# Execute rearrangement Experiment.
 
 # Rearrange multiple objects.
 rosrun NPMO-Rearrangement run_detection_push.py
