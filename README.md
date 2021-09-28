@@ -1,6 +1,10 @@
 # NPMO-Rearrangement
-This repo is our ICRA2022 paper about 'Hierarchical Policy for Non-prehensile Multi-object Rearrangement with Deep Reinforcement Learning and Monte Carlo Tree Search
-'
+This repository contains the implementation of the Non-prehensile Multi-object (NPMO) Rearrangement system for running on a UR3 Robot from the paper:
+
+**Hierarchical Policy for Non-prehensile Multi-object Rearrangement with Deep Reinforcement Learning and Monte Carlo Tree Search**
+
+*Fan Bai, Fei Meng, Jianbang Liu, Jiankun Wang, Max Q.-H. Meng*
+
 # Introduction
 We have implemented an efficient Hierarchical Policy for Non-prehensile Multi-object (NPMO) Rearrangement, with specific contributions as follows:
 1. We model the NPMO rearrangement task and solve it with a hierarchical policy;
