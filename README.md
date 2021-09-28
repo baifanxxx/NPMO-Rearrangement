@@ -41,11 +41,13 @@ We propose a hierarchical policy to divide and conquer for non-prehensile multi-
 # Experimental results
 We verify through experiments that the proposed method can achieve a higher success rate, fewer steps, and shorter path length compared with the state-of-the-art.
 
-## Qualitative result of algorithm execution in real robot experiments. The sequence of actions is a-j.
-.<img src="https://github.com/baifanxxx/NPMO-Rearrangement/blob/main/figs/real_exp.png" width="400" height="270" />
+## Qualitative result of algorithm execution in real robot experiments. 
+.<img src="https://github.com/baifanxxx/NPMO-Rearrangement/blob/main/figs/real_exp.png"/>
+The sequence of actions is a-j.
 
-## Comparing the performance of different methods. SR means Success Rate.
-.<img src="https://github.com/baifanxxx/NPMO-Rearrangement/blob/main/figs/results.png" width="400" height="270" />
+## Comparing the performance of different methods. 
+.<img src="https://github.com/baifanxxx/NPMO-Rearrangement/blob/main/figs/results.png" />
+SR means Success Rate.
 
 ## The length of action sequence of increased objects for MCTS. 
 .<img src="https://github.com/baifanxxx/NPMO-Rearrangement/blob/main/figs/fig5.png"/>
