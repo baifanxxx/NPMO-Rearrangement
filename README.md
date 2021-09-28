@@ -1,5 +1,5 @@
 # NPMO-Rearrangement
-This repository contains the implementation of the Non-prehensile Multi-object (NPMO) Rearrangement system for running on a UR3 Robot from the paper:
+This repository contains the implementation of the Non-prehensile Multi-object (NPMO) Rearrangement system for running on a UR3 Robot from the paper submitted to ICRA2022:
 
 **Hierarchical Policy for Non-prehensile Multi-object Rearrangement with Deep Reinforcement Learning and Monte Carlo Tree Search**
 
