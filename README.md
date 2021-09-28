@@ -56,7 +56,7 @@ In each box, black data points are layed over a 1.96 Standard Error of Mean (95%
 ## The impact of different imitation levels on RL.
 .<img src="https://github.com/baifanxxx/NPMO-Rearrangement/blob/main/figs/IL_curve.png"/>
 
-# Environment Installation
+# Training Environment
 1. Install Requirements
   python 3.6
   pytorch 1.7.1
@@ -68,6 +68,60 @@ In each box, black data points are layed over a 1.96 Standard Error of Mean (95%
   g++ -shared -O2 search.cpp --std=c++11 -ldl -fPIC -o search.so
 ```
 The configuration method of these environments can refer to the [link](https://github.com/HanqingWangAI/SceneMover)
+
+# Real robot Environment
+
+**Hardware:**
+
+This code is designed around a UR3 robot using an Intel Realsense D435 camera mounted on the wrist. A 3D-printalbe camera mount is available in the `cad` folder. 
+**The following external packages are required to run everything completely:**
+* [ROS Melodic](http://wiki.ros.org/melodic/Installation)
+* [Universal Robots ROS Driver](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver)
+* [Realsense ROS](https://github.com/IntelRealSense/realsense-ros#installation-instructions)
+* [Easy Handeye](https://github.com/IFL-CAMP/easy_handeye)
+
+
+**Installation:**
+
+Clone this repository into your ROS worksapce and run `rosdep install --from-paths src --ignore-src --rosdistro=<your_rosdistro> -y` and then `catkin_make`/`catkin build`.
+
+**Local python requirements can be installed by:**
+
+```bash
+pip install -r requirements.txt
+```
+
+## Packages Overview
+
+## Running
+
+To run NPMO rearrangement experiments:
+
+```bash
+# Start the robot and required extras.
+roslaunch ur_robot_driver ur3_bringup.launch robot_ip:=192.168.56.101
+
+# Run MoveIt to plan and execute actions on the arm.
+roslaunch ur3_moveit_config ur3_moveit_planning_executing.launch
+
+# Start the camera, depth conversion.
+roslaunch realsense2_camera rs_aligned_depth.launch
+
+# Publish the pose transformation between the camera and the arm.
+roslaunch easy_handeye publish.launch
+ 
+## Execute rearrangement Experiment.
+
+# Rearrange multiple objects.
+rosrun NPMO-Rearrangement run_detection_push.py
+
+```
+
+
+## Configuration
+
+While this code has been written with specific hardware in mind, different physical settings or cameras may be used by changing some codes.
+New robots and cameras will require major changes.
 
 
 <!--  
