@@ -1,11 +1,11 @@
 # NPMO-Rearrangement
-This repository contains the implementation of the Non-prehensile Multi-object (NPMO) Rearrangement system for running on a UR3 Robot from the paper submitted to ICRA2022:
+This repository contains the implementation of the Non-prehensile Multi-object (NPMO) Rearrangement system for running on a UR3 Robot from the paper received by the journal Biomimetic Intelligence and Robotics:
 
-**Hierarchical Policy for Non-prehensile Multi-object Rearrangement with Deep Reinforcement Learning and Monte Carlo Tree Search**
+**Hierarchical Policy with Deep-reinforcement Learning for Nonprehensile Multiobject Rearrangement**
 
 *Fan Bai, Fei Meng, Jianbang Liu, Jiankun Wang, Max Q.-H. Meng*
 
-[arXiv](https://arxiv.org/abs/2109.08973) | [Video]()
+[paper](https://www.sciencedirect.com/science/article/pii/S2667379722000134) | [Video]()
 
 If you use this work, please cite the following as appropriate:
 
@@ -18,6 +18,20 @@ If you use this work, please cite the following as appropriate:
       archivePrefix={arXiv},
       primaryClass={cs.RO}
 }
+
+@article{BAI2022100047,
+title = {Hierarchical policy with deep-reinforcement learning for nonprehensile multiobject rearrangement},
+journal = {Biomimetic Intelligence and Robotics},
+volume = {2},
+number = {3},
+pages = {100047},
+year = {2022},
+issn = {2667-3797},
+doi = {https://doi.org/10.1016/j.birob.2022.100047},
+url = {https://www.sciencedirect.com/science/article/pii/S2667379722000134},
+author = {Fan Bai and Fei Meng and Jianbang Liu and Jiankun Wang and Max Q.-H. Meng},
+}
+
 ```
 
 **Contact**
