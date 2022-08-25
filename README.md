@@ -10,6 +10,20 @@ This repository contains the implementation of the Non-prehensile Multi-object (
 If you use this work, please cite the following as appropriate:
 
 ```text
+
+@article{BAI2022100047,
+         title = {Hierarchical policy with deep-reinforcement learning for nonprehensile multiobject rearrangement},
+         journal = {Biomimetic Intelligence and Robotics},
+         volume = {2},
+         number = {3},
+         pages = {100047},
+         year = {2022},
+         issn = {2667-3797},
+         doi = {https://doi.org/10.1016/j.birob.2022.100047},
+         url = {https://www.sciencedirect.com/science/article/pii/S2667379722000134},
+         author = {Fan Bai and Fei Meng and Jianbang Liu and Jiankun Wang and Max Q.-H. Meng},
+}
+
 @misc{bai2021hierarchical,
       title={Hierarchical Policy for Non-prehensile Multi-object Rearrangement with Deep Reinforcement Learning and Monte Carlo Tree Search}, 
       author={Fan Bai and Fei Meng and Jianbang Liu and Jiankun Wang and Max Q. -H. Meng},
@@ -17,19 +31,6 @@ If you use this work, please cite the following as appropriate:
       eprint={2109.08973},
       archivePrefix={arXiv},
       primaryClass={cs.RO}
-}
-
-@article{BAI2022100047,
-title = {Hierarchical policy with deep-reinforcement learning for nonprehensile multiobject rearrangement},
-journal = {Biomimetic Intelligence and Robotics},
-volume = {2},
-number = {3},
-pages = {100047},
-year = {2022},
-issn = {2667-3797},
-doi = {https://doi.org/10.1016/j.birob.2022.100047},
-url = {https://www.sciencedirect.com/science/article/pii/S2667379722000134},
-author = {Fan Bai and Fei Meng and Jianbang Liu and Jiankun Wang and Max Q.-H. Meng},
 }
 
 ```
